@@ -8,7 +8,7 @@
 > Serve GitHub-flavored sites natively using Jekyll.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.5` and GitHub Pages `~21`.
+This plugin requires Node `>= 0.8.0`, Grunt `~0.4.5` and GitHub Pages `~21`.
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -167,7 +167,7 @@ Default: `false`
 Run `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
 
 ## Usage Examples
-Follow [this Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
+Follow this [Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
 
 ### Example Config No. 1
 In this example, running `grunt default` will fire off the task.
