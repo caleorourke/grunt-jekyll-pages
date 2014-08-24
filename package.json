@@ -1,0 +1,38 @@
+{
+    "name": "grunt-jekyll-pages",
+    "description": "Serve GitHub-flavored sites natively using Jekyll.",
+    "version": "0.2.0",
+    "homepage": "https://github.com/caleorourke/grunt-jekyll-pages",
+    "author": {
+        "name": "Michael O'Rourke",
+        "email": "michael.orourke@zoho.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/caleorourke/grunt-jekyll-pages.git"
+    },
+    "bugs": {
+        "url": "https://github.com/caleorourke/grunt-jekyll-pages/issues"
+    },
+    "bin": "bin/jekyll-pages",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "tmp": "~0.0.23"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "^0.9.2",
+        "grunt-mocha-test": "~0.11.0",
+        "grunt": "~0.4.5"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.5"
+    },
+    "keywords": [
+        "gh-pages", "github pages", "grunt", "gruntplugin", "jekyll", "jekyllrb", "pages", "pages-gem"
+    ]
+}
