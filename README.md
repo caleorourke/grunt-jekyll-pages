@@ -8,7 +8,7 @@
 > Serve GitHub-flavored sites natively using Jekyll.
 
 ## Getting Started
-This plugin requires Node `>= 0.8.0`, Grunt `~0.4.5` and GitHub Pages `~21`.
+This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -247,6 +247,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.2.0: Limit Node Engine to `>= 0.10`
 * 0.1.0: Initial Release
 
 ## License

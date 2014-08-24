@@ -1,7 +1,7 @@
 {
     "name": "grunt-jekyll-pages",
     "description": "Serve GitHub-flavored sites natively using Jekyll.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "homepage": "https://github.com/caleorourke/grunt-jekyll-pages",
     "author": {
         "name": "Michael O'Rourke",
@@ -16,7 +16,7 @@
     },
     "bin": "bin/grunt-jekyll-pages",
     "engines": {
-        "node": ">= 0.8.0"
+        "node": ">= 0.10.0"
     },
     "scripts": {
         "test": "grunt test"
