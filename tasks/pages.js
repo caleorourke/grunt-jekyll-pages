@@ -43,7 +43,7 @@ module.exports = function(grunt) {
         var rawConfigFile;
 
         function testExists (next) {
-            var versionCommand = options.bundleExec ? 'bundle exec github-pages -v' : 'github-pages -v';
+            var versionCommand = options.bundleExec ? 'bundle exec jekyll -v' : 'jekyll -v';
             exec(versionCommand, function(error, stdout) {
 
                 if (error) {
