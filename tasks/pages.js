@@ -108,7 +108,7 @@ module.exports = function(grunt) {
                         command += ' ' + options[option];
                     }
                     if (!options[option]) {
-                        grunt.warn('`' + option + '` has been deprecated. You may want to try this in the `raw` option in your gruntfile, or in a configuration file.');
+                        grunt.warn('`' + option + '` has been deprecated. You may want to try this as a `raw` option in your Gruntfile or in `_config.yml`.');
                     }
                 }
             });
@@ -117,7 +117,7 @@ module.exports = function(grunt) {
             grunt.log.write('`' + command + '` was initiated.\n');
 
             if (options.serve) {
-                grunt.log.write('Started your Jekyll web server on http://localhost:' + (options.port || 4000) + '. Press Ctrl-C to kill it.\n');
+                grunt.log.write('Started web server on http://localhost:' + (options.port || 4000) + '. Press Ctrl-C to stop it.\n');
             }
 
             exec(command, function(err, stdout) {
