@@ -1,18 +1,18 @@
 {
     "name": "grunt-jekyll-pages",
     "description": "Serve GitHub-flavored sites natively using Jekyll.",
-    "version": "0.2.1",
-    "homepage": "https://github.com/caleorourke/grunt-jekyll-pages",
+    "version": "0.3.0",
+    "homepage": "https://github.com/meludy/grunt-jekyll-pages",
     "author": {
         "name": "Michael O'Rourke",
         "email": "michael.orourke@zoho.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/caleorourke/grunt-jekyll-pages.git"
+        "url": "git://github.com/meludy/grunt-jekyll-pages.git"
     },
     "bugs": {
-        "url": "https://github.com/caleorourke/grunt-jekyll-pages/issues"
+        "url": "https://github.com/meludy/grunt-jekyll-pages/issues"
     },
     "bin": "bin/grunt-jekyll-pages",
     "engines": {

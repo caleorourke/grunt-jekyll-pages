@@ -1,7 +1,7 @@
-<a href="https://travis-ci.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/caleorourke/grunt-jekyll-pages.svg?branch=master"></a>
-<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages.svg?theme=shields.io"></a>
-<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+<a href="https://travis-ci.org/meludy/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/meludy/grunt-jekyll-pages.svg?branch=master"></a>
+<a href="https://david-dm.org/meludy/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/meludy/grunt-jekyll-pages.svg?theme=shields.io"></a>
+<a href="https://david-dm.org/meludy/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/meludy/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
+<a href="http://github.com/meludy/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # grunt-jekyll-pages
 
@@ -167,7 +167,7 @@ Default: `false`
 Run `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
 
 ## Usage Examples
-Follow this [Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
+Follow this [Grunt example](http://gist.github.com/meludy/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
 
 ### Example Config No. 1
 In this example, running `grunt default` will fire off the task.
@@ -247,6 +247,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.3.0: New Home for Repository
 * 0.2.1: Improve Output Messages
 * 0.2.0: Limit Node Engine to `>= 0.10`
 * 0.1.0: Initial Release
