@@ -1,7 +1,7 @@
-<a href="https://travis-ci.org/meludy/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/meludy/grunt-jekyll-pages.svg?branch=master"></a>
-<a href="https://david-dm.org/meludy/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/meludy/grunt-jekyll-pages.svg?theme=shields.io"></a>
-<a href="https://david-dm.org/meludy/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/meludy/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/meludy/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+<a href="https://travis-ci.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/caleorourke/grunt-jekyll-pages.svg?branch=master"></a>
+<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages.svg?theme=shields.io"></a>
+<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
+<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # grunt-jekyll-pages
 
@@ -10,7 +10,7 @@
 ## Getting Started
 This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
 npm install grunt-jekyll-pages --save-dev
@@ -253,4 +253,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.1.0: Initial Release
 
 ## License
-Copyright (c) 2014 SoftLayer, an IBM Company, under the terms of the [MIT License](LICENSE.md).
+Copyright (c) 2014 Michael O'Rourke (@caleorourke), under the terms of the [MIT License](LICENSE.md).
