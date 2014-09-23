@@ -39,7 +39,7 @@ grunt.initConfig({
 ```
 
 ## Options
-You can use most of the configuration options available in the [Jekyll Documentation](http://jekyllrb.com/docs/configuration).
+You can use most of the configuration options available in the [Jekyll Documentation (http://jekyllrb.com/docs/configuration).
 
 ### Global Configuration
 
@@ -167,14 +167,14 @@ Default: `false`
 Run `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
 
 ## Usage Examples
-Follow this [Grunt example](http://gist.github.com/meludy/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
+Follow this [Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
 
 ### Example Config No. 1
 In this example, running `grunt default` will fire off the task.
 
 ```js
 grunt.initConfig({
-    pages: {                               // Task
+    pages: {                                // Task
         options: {                          // Universal options
             bundleExec: true,
             src : '<%= app %>'
@@ -230,8 +230,7 @@ grunt.initConfig({
         dist: {
             options: {
                 config: '_config.yml',
-                // Construct a string with JavaScript.
-                // Remember, in YAML line breaks and indentation matter.
+                // Construct a string with JavaScript. Remember, in YAML, line breaks and indentation matter.
                 raw: 'highlighter: pygments\n' +
                 'exclude: [\'development\']\n' +
                 'author:\n' +
@@ -247,6 +246,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.0: Update Runtime and Dev Dependencies, Update README.md Content, Change Licensor
 * 0.3.0: New Home for Repository
 * 0.2.1: Improve Output Messages
 * 0.2.0: Limit Node Engine to `>= 0.10`
