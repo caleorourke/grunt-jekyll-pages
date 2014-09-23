@@ -39,7 +39,7 @@ grunt.initConfig({
 ```
 
 ## Options
-You can use most of the configuration options available in the [Jekyll Documentation (http://jekyllrb.com/docs/configuration).
+You can use most of the configuration options available in the [Jekyll Documentation] (http://jekyllrb.com/docs/configuration).
 
 ### Global Configuration
 
