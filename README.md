@@ -246,6 +246,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.1: Happy Early 2015!
 * 0.4.0: Update Runtime and Dev Dependencies, Update README.md Content, Change Licensor
 * 0.3.0: New Home for Repository
 * 0.2.1: Improve Output Messages
@@ -253,4 +254,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.1.0: Initial Release
 
 ## License
-Copyright (c) 2014 Michael O'Rourke (@caleorourke), under the terms of the [MIT License](LICENSE.md).
+Copyright (c) 2014-2015 Michael O'Rourke (@caleorourke), under the terms of the [MIT License](LICENSE.md).
