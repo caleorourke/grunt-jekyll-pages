@@ -1,7 +1,7 @@
 <a href="https://travis-ci.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/caleorourke/grunt-jekyll-pages.svg?branch=master"></a>
 <a href="https://david-dm.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages.svg?theme=shields.io"></a>
 <a href="https://david-dm.org/caleorourke/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # grunt-jekyll-pages
 
@@ -246,12 +246,13 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 0.4.1: Happy Early 2015!
-* 0.4.0: Update Runtime and Dev Dependencies, Update README.md Content, Change Licensor
-* 0.3.0: New Home for Repository
-* 0.2.1: Improve Output Messages
-* 0.2.0: Limit Node Engine to `>= 0.10`
-* 0.1.0: Initial Release
+* 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, Bump `grunt-mocha-test` to 0.12.7
+* 0.4.1: Happy 2015!
+* 0.4.0: Update runtime and dev dependencies, Update README.md content, Change licensor
+* 0.3.0: New home for repository
+* 0.2.1: Improve output messages
+* 0.2.0: Limit Node.js engine to `>= 0.10`
+* 0.1.0: Initial release
 
 ## License
-Copyright (c) 2014-2015 Michael O'Rourke (@caleorourke), under the terms of the [MIT License](LICENSE.md).
+Copyright (c) 2014-2015 Cale O'Rourke (@caleorourke), under terms of the [MIT License](LICENSE).
