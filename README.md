@@ -39,7 +39,7 @@ grunt.initConfig({
 ```
 
 ## Options
-You can use most of the configuration options available in the [Jekyll Documentation] (http://jekyllrb.com/docs/configuration).
+You can use most of the configuration options available in the [Jekyll Documentation](http://jekyllrb.com/docs/configuration).
 
 ### Global Configuration
 
@@ -246,6 +246,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.3: Fix bad references in README.md, Cleanse package.json content
 * 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, Bump `grunt-mocha-test` to 0.12.7
 * 0.4.1: Happy 2015!
 * 0.4.0: Update runtime and dev dependencies, Update README.md content, Change licensor
