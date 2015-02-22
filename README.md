@@ -55,12 +55,6 @@ Default: `./_site`
 
 The directory where Jekyll will write files.
 
-#### plugins
-Type: `string` <br/>
-Default: `./_plugins`
-
-The directory for plugins. If you're using GitHub Pages to publish your site, any plugin under this directory will not be supported.
-
 #### layouts
 Type: `string` <br/>
 Default: `./_layouts`
@@ -246,6 +240,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.4: Disable `_plugins` option
 * 0.4.3: Fix bad references in README.md, Cleanse package.json content
 * 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, Bump `grunt-mocha-test` to 0.12.7
 * 0.4.1: Happy 2015!

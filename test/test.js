@@ -4,17 +4,17 @@ var assert = require('assert');
 var grunt = require('grunt');
 
 exports.pages = {
-    setUp: function(done) {
-        done();
-    },
-    default_options: function(test) {
-        test.expect(1);
+  setUp: function(done) {
+    done();
+  },
+  default_options: function(test) {
+    test.expect(1);
 
-        var actual = grunt.file.read('./test/actual/index.html');
-        var expected = grunt.file.read('./test/expected/index.html');
+    var actual = grunt.file.read('./test/actual/index.html');
+    var expected = grunt.file.read('./test/expected/index.html');
 
-        assert.equal(actual, expected);
+    assert.equal(actual, expected);
 
-        test.done();
-    },
+    test.done();
+  },
 };

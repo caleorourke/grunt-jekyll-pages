@@ -1,18 +1,17 @@
 language: node_js
 
 node_js:
-    - "0.10"
+  - "0.10"
 
 before_install:
-    - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
-    - travis_retry gem install github-pages
-    - travis_retry npm install -g grunt-cli
-    - travis_retry npm install
+  - travis_retry gem install github-pages
+  - travis_retry npm install
 
 script:
-    - grunt test
+  - grunt test
 
 notifications:
-    email: false
+  email: false
