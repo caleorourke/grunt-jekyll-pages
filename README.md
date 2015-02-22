@@ -23,7 +23,7 @@ grunt.loadNpmTasks('grunt-jekyll-pages');
 ```
 
 ## Overview
-Setup your `Gruntfile.js` to use any of the available options below. Add a section named `pages` to the data object passed into `grunt.initConfig()`.
+Setup your `Gruntfile.js` to use any of the options below by adding a section named `pages` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
@@ -47,19 +47,19 @@ You can use most of the configuration options available in the [Jekyll Documenta
 Type: `string` <br/>
 Default: `.`
 
-Change the directory where Jekyll will read files.
+The directory where Jekyll will read files.
 
 #### dest
 Type: `string` <br/>
 Default: `./_site`
 
-Change the directory where Jekyll will write files.
+The directory where Jekyll will write files.
 
 #### plugins
 Type: `string` <br/>
 Default: `./_plugins`
 
-The directory for plugins.
+The directory for plugins. If you're using GitHub Pages to publish your site, any plugin under this directory will not be supported.
 
 #### layouts
 Type: `string` <br/>
@@ -77,7 +77,7 @@ The directory for data files.
 Type: `boolean` <br/>
 Default: `false`
 
-Disable custom plugins and ignore symbolic links. If you're using GitHub to publish your site, this option will automatically be set to `false`.
+Disables custom plugins and ignore symbolic links. If you're using GitHub Pages to publish your site, this option will automatically be set to `false`.
 
 ### Build Command Options
 
@@ -85,7 +85,7 @@ Disable custom plugins and ignore symbolic links. If you're using GitHub to publ
 Type: `boolean` <br/>
 Default: `false`
 
-Build the site and start a local Jekyll development server on [http://localhost:4000](http://localhost:4000). If `serve` is false, the site will build itself using the `build` command.
+Builds the site and starts a local Jekyll development server on [http://localhost:4000](http://localhost:4000). If `serve` is false, the site will build itself using the `build` command.
 
 Serve mode does last forever. Kill it by pressing <kbd>Ctrl+C</kbd>.
 
@@ -95,7 +95,7 @@ For complex projects, use [grunt-contrib-connect](https://github.com/gruntjs/gru
 Type: `boolean` <br/>
 Default: `false`
 
-Enable auto-regeneration of the site when files are modified.
+Enables auto-regeneration of the site when files are modified.
 
 To run multiple watch tasks in a project, use [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) instead.
 
@@ -103,7 +103,7 @@ To run multiple watch tasks in a project, use [grunt-contrib-watch](https://gith
 Type: `string` <br/>
 Default: `_config.yml`
 
-Specify config files instead of using `_config.yml` automatically. Settings in later files override settings in earlier files.
+Specifies config files instead of using `_config.yml` automatically. Settings in later files override settings in earlier files.
 
 #### raw
 Type: `string`
@@ -114,25 +114,25 @@ Creates a temporary `_config.yml` with the contents of `raw`. This config file t
 Type: `boolean` <br/>
 Default: `false`
 
-Process and render draft posts.
+Processes and renderes draft posts.
 
 #### future
 Type: `boolean` <br/>
 Default: `true`
 
-Publish posts with a future date.
+Publishs posts with a future date.
 
 #### lsi
 Type: `boolean` <br/>
 Default: `false`
 
-Produce an index for related posts.
+Produces an index for related posts.
 
 #### limit_posts
 Type: `number` <br/>
 Default: `0`
 
-Limit the number of posts to parse and publish.
+Limits the number of posts to parse and publish.
 
 ### Serve Command Options
 
@@ -140,36 +140,36 @@ Limit the number of posts to parse and publish.
 Type: `string` or `number` <br/>
 Default: `4000`
 
-Listen on the given port (requires `serve`).
+Listens on the given port (requires `serve`).
 
 #### host
 Type: `string` <br/>
 Default: `0.0.0.0`
 
-Listen at the given hostname (requires `serve`).
+Listens at the given hostname (requires `serve`).
 
 #### baseurl
 Type: `string` <br/>
 Default: `""`
 
-Serve the website from the given base URL (requires `serve`).
+Serves the website from the given base URL (requires `serve`).
 
 #### detach
 Type: `boolean` <br/>
 Default: `false`
 
-Detach the server from the terminal.
+Detaches the server from the terminal.
 
 #### bundleExec
 Type: `boolean` <br/>
 Default: `false`
 
-Run `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
+Runs `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
 
 ## Usage Examples
 Follow this [Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly.
 
-### Example Config No. 1
+### Example No. 1
 In this example, running `grunt default` will fire off the task.
 
 ```js
@@ -199,7 +199,7 @@ grunt.loadNpmTasks('grunt-jekyll-pages');
 grunt.registerTask('default', ['pages']);
 ```
 
-### Example Config No. 2
+### Example No. 2
 In this example, running `grunt serve` will fire off one task, and  `grunt test` will fire off the other.
 
 ```js
