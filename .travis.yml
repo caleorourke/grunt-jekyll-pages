@@ -8,6 +8,7 @@ before_install:
 
 install:
   - travis_retry gem install github-pages
+  - travis_retry npm install -g grunt-cli
   - travis_retry npm install
 
 script:

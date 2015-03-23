@@ -240,9 +240,10 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.6: Include `grunt-cli` natively in `.travis.yml` to fix build failure
 * 0.4.5: Bump `tmp` dependency to 0.0.25
 * 0.4.4: Disable `_plugins` option
-* 0.4.3: Fix bad references in README.md, Cleanse package.json content
+* 0.4.3: Fix bad references in README.md, cleanse package.json content
 * 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, bump `grunt-mocha-test` to 0.12.7
 * 0.4.1: Happy 2015!
 * 0.4.0: Update runtime and dev dependencies, update README.md content, change licensor
