@@ -240,15 +240,16 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 0.4.5: Bump `tmp` dependency to 0.0.25
 * 0.4.4: Disable `_plugins` option
 * 0.4.3: Fix bad references in README.md, Cleanse package.json content
-* 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, Bump `grunt-mocha-test` to 0.12.7
+* 0.4.2: Bump `grunt-contrib-jshint` to 0.11.0, bump `grunt-mocha-test` to 0.12.7
 * 0.4.1: Happy 2015!
-* 0.4.0: Update runtime and dev dependencies, Update README.md content, Change licensor
+* 0.4.0: Update runtime and dev dependencies, update README.md content, change licensor
 * 0.3.0: New home for repository
 * 0.2.1: Improve output messages
 * 0.2.0: Limit Node.js engine to `>= 0.10`
 * 0.1.0: Initial release
 
 ## License
-Copyright (c) 2014-2015 Cale O'Rourke (@caleorourke), under terms of the [MIT License](LICENSE).
+Copyright (c) 2014-2015 Michael O'Rourke (@caleorourke), under terms of the [MIT License](LICENSE).
