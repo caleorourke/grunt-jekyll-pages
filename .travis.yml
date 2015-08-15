@@ -3,11 +3,6 @@ language: node_js
 node_js:
   - "0.10"
 
-rvm:
-  - 2.0.0
-  - 2.1.5
-  - 2.2.1
-
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
@@ -22,4 +17,5 @@ script:
 notifications:
   email: false
 
+cache: bundler
 sudo: false
