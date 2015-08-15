@@ -1,6 +1,10 @@
-language: ruby
+language: node_js
+
+node_js:
+  - "0.10"
 
 rvm:
+  - 2.0.0
   - 2.1.5
   - 2.2.1
 
@@ -13,11 +17,7 @@ install:
   - travis_retry npm install
 
 script:
-  - grunt build
-
-branches:
-  only:
-    - gh-pages
+  - grunt test
 
 notifications:
   email: false
