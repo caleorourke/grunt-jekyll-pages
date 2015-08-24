@@ -27,14 +27,14 @@ Setup your `Gruntfile.js` to use any of the options below by adding a section na
 
 ```js
 grunt.initConfig({
-    pages: {
-        options: {
-            // Task-specific options go here.
-        },
-        your_target: {
-            // Target-specific file lists and/or options go here.
-        },
+  pages: {
+    options: {
+      // Task-specific options go here.
     },
+    your_target: {
+      // Target-specific file lists and/or options go here.
+    },
+  },
 });
 ```
 
@@ -168,24 +168,24 @@ In this example, running `grunt default` will fire off the task.
 
 ```js
 grunt.initConfig({
-    pages: {                                // Task
-        options: {                          // Universal options
-            bundleExec: true,
-            src : '<%= app %>'
-        },
-        dist: {                             // Target
-            options: {                      // Target options
-                dest: '<%= dist %>',
-                config: '_config.yml,_config.build.yml'
-            }
-        },
-        serve: {                            // Another target
-            options: {
-                dest: '.jekyll',
-                drafts: true
-            }
-        }
+  pages: {                              // Task
+    options: {                          // Universal options
+      bundleExec: true,
+      src : '<%= app %>'
+    },
+    dist: {                             // Target
+      options: {                        // Target options
+        dest: '<%= dist %>',
+        config: '_config.yml,_config.build.yml'
+      }
+    },
+    serve: {                            // Another target
+      options: {
+        dest: '.jekyll',
+        drafts: true
+      }
     }
+  }
 });
 
 grunt.loadNpmTasks('grunt-jekyll-pages');
@@ -198,16 +198,16 @@ In this example, running `grunt serve` will fire off one task, and  `grunt test`
 
 ```js
 grunt.initConfig({
-    pages: {
-        test: {},
-        serve: {
-            options: {
-                watch: true,
-                serve: true,
-                baseurl: ['\"\"']
-            }
-        }
+  pages: {
+    test: {},
+    serve: {
+      options: {
+        watch: true,
+        serve: true,
+        baseurl: ['\"\"']
+      }
     }
+  }
 });
 
 grunt.loadNpmTasks('grunt-jekyll-pages');
@@ -220,19 +220,19 @@ grunt.registerTask('test',  ['pages:test']);
 ### Example Raw Usage
 ```js
 grunt.initConfig({
-    pages: {
-        dist: {
-            options: {
-                config: '_config.yml',
-                // Construct a string with JavaScript. Remember, in YAML, line breaks and indentation matter.
-                raw: 'highlighter: pygments\n' +
-                'exclude: [\'development\']\n' +
-                'author:\n' +
-                '  name: ' + fetchAuthor() + '\n' +
-                '  email: ' + fetchEmail()
-            }
-        }
+  pages: {
+    dist: {
+      options: {
+        config: '_config.yml',
+        // Construct a string with JavaScript. Remember, in YAML, line breaks and indentation matter.
+        raw: 'highlighter: pygments\n' +
+        'exclude: [\'development\']\n' +
+        'author:\n' +
+        '  name: ' + fetchAuthor() + '\n' +
+        '  email: ' + fetchEmail()
+      }
     }
+  }
 });
 ```
 
@@ -240,6 +240,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 1.0.0: Official release version
 * 0.5.0: Convert .travis.yml default from node.js to ruby
 * 0.4.7: Bump `tmp` dependency to 0.0.27
 * 0.4.6: Include `grunt-cli` natively in `.travis.yml` to fix build failure
@@ -255,4 +256,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.1.0: Initial release
 
 ## License
-Copyright (c) 2014-2015 Michael O'Rourke (@caleorourke), under terms of the [MIT License](LICENSE).
+Copyright (c) 2014-2015 Michael O'Rourke under terms of the [MIT License](LICENSE).
