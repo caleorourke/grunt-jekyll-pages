@@ -240,7 +240,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 1.0.0: Official release version
+* 1.0.1: Official release version
 * 0.5.0: Convert .travis.yml default from node.js to ruby
 * 0.4.7: Bump `tmp` dependency to 0.0.27
 * 0.4.6: Include `grunt-cli` natively in `.travis.yml` to fix build failure
