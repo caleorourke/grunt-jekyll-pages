@@ -1,7 +1,7 @@
 {
   "name": "grunt-jekyll-pages",
   "description": "Serve GitHub-flavored sites natively using Jekyll.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/caleorourke/grunt-jekyll-pages",
   "author": {
     "name": "Michael O'Rourke",
@@ -22,7 +22,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "tmp": "^0.0.27"
+    "tmp": "^0.0.28"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.11.0",
