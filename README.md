@@ -255,6 +255,7 @@ grunt test
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 1.0.3: Rename `LICENSE` to `MIT-LICENSE`
 * 1.0.2: Bump `tmp` dependency to 0.0.28
 * 1.0.1: Include `grunt test`
 * 0.5.0: Convert `.travis.yml` default from node.js to ruby
