@@ -22,6 +22,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-jekyll-pages');
 ```
 
+## Local Install
+Run the following commands.
+
+```bash
+gem install github-pages
+npm install
+```
+
 ## Overview
 Setup your `Gruntfile.js` to use any of the options below by adding a section named `pages` to the data object passed into `grunt.initConfig()`.
 
@@ -236,13 +244,20 @@ grunt.initConfig({
 });
 ```
 
+## Testing
+Run the following command.
+
+```shell
+grunt test
+```
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
 * 1.0.2: Bump `tmp` dependency to 0.0.28
-* 1.0.1: Official release version
-* 0.5.0: Convert .travis.yml default from node.js to ruby
+* 1.0.1: Include `grunt test`
+* 0.5.0: Convert `.travis.yml` default from node.js to ruby
 * 0.4.7: Bump `tmp` dependency to 0.0.27
 * 0.4.6: Include `grunt-cli` natively in `.travis.yml` to fix build failure
 * 0.4.5: Bump `tmp` dependency to 0.0.25
