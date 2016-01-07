@@ -26,8 +26,8 @@ grunt.loadNpmTasks('grunt-jekyll-pages');
 Run the following commands.
 
 ```bash
-gem install github-pages
-npm install
+$ [sudo] gem install github-pages
+$ [sudo] npm install
 ```
 
 ## Overview
@@ -52,31 +52,31 @@ You can use most of the configuration options available in the [Jekyll Documenta
 ### Global Configuration
 
 #### src
-Type: `string` <br/>
+Type: `string` <br>
 Default: `.`
 
 The directory where Jekyll will read files.
 
 #### dest
-Type: `string` <br/>
+Type: `string` <br>
 Default: `./_site`
 
 The directory where Jekyll will write files.
 
 #### layouts
-Type: `string` <br/>
+Type: `string` <br>
 Default: `./_layouts`
 
 The directory for layouts.
 
 #### data_source
-Type: `string` <br/>
+Type: `string` <br>
 Default: `./_data`
 
 The directory for data files.
 
 #### safe
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Disables custom plugins and ignore symbolic links. If you're using GitHub Pages to publish your site, this option will automatically be set to `false`.
@@ -84,7 +84,7 @@ Disables custom plugins and ignore symbolic links. If you're using GitHub Pages 
 ### Build Command Options
 
 #### serve
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Builds the site and starts a local Jekyll development server on [http://localhost:4000](http://localhost:4000). If `serve` is false, the site will build itself using the `build` command.
@@ -94,7 +94,7 @@ Serve mode does last forever. Kill it by pressing <kbd>Ctrl+C</kbd>.
 For complex projects, use [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) instead.
 
 #### watch
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Enables auto-regeneration of the site when files are modified.
@@ -102,7 +102,7 @@ Enables auto-regeneration of the site when files are modified.
 To run multiple watch tasks in a project, use [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) instead.
 
 #### config
-Type: `string` <br/>
+Type: `string` <br>
 Default: `_config.yml`
 
 Specifies config files instead of using `_config.yml` automatically. Settings in later files override settings in earlier files.
@@ -113,25 +113,25 @@ Type: `string`
 Creates a temporary `_config.yml` with the contents of `raw`. This config file takes precedence over other config files.
 
 #### drafts
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Processes and renderes draft posts.
 
 #### future
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `true`
 
 Publishs posts with a future date.
 
 #### lsi
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Produces an index for related posts.
 
 #### limit_posts
-Type: `number` <br/>
+Type: `number` <br>
 Default: `0`
 
 Limits the number of posts to parse and publish.
@@ -139,31 +139,31 @@ Limits the number of posts to parse and publish.
 ### Serve Command Options
 
 #### port
-Type: `string` or `number` <br/>
+Type: `string` or `number` <br>
 Default: `4000`
 
 Listens on the given port (requires `serve`).
 
 #### host
-Type: `string` <br/>
+Type: `string` <br>
 Default: `0.0.0.0`
 
 Listens at the given hostname (requires `serve`).
 
 #### baseurl
-Type: `string` <br/>
+Type: `string` <br>
 Default: `""`
 
 Serves the website from the given base URL (requires `serve`).
 
 #### detach
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Detaches the server from the terminal.
 
 #### bundleExec
-Type: `boolean` <br/>
+Type: `boolean` <br>
 Default: `false`
 
 Runs `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).
@@ -248,13 +248,14 @@ grunt.initConfig({
 Run the following command.
 
 ```shell
-grunt test
+$ grunt test
 ```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 1.0.4: Happy 2016!, cleanse README content, include additional rvm packages
 * 1.0.3: Rename `LICENSE` to `MIT-LICENSE`
 * 1.0.2: Bump `tmp` dependency to 0.0.28
 * 1.0.1: Include `grunt test`
@@ -273,4 +274,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.1.0: Initial release candidate
 
 ## License
-Copyright (c) 2014-2015 Michael O'Rourke under terms of the [MIT License](LICENSE).
+Copyright (c) 2014-2016 Michael O'Rourke under terms of the [MIT License](LICENSE).
