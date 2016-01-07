@@ -255,7 +255,7 @@ $ grunt test
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 1.1.5: Fix bad references in README.md
+* 1.0.5: Fix bad references in README.md
 * 1.0.4: Happy 2016!, cleanse README content, include additional rvm packages
 * 1.0.3: Rename `LICENSE` to `MIT-LICENSE`
 * 1.0.2: Bump `tmp` dependency to 0.0.28
