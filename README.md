@@ -1,7 +1,7 @@
 <a href="https://travis-ci.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/caleorourke/grunt-jekyll-pages.svg?branch=master"></a>
 <a href="https://david-dm.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages.svg?theme=shields.io"></a>
 <a href="https://david-dm.org/caleorourke/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/MIT-LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # grunt-jekyll-pages
 
@@ -255,6 +255,7 @@ $ grunt test
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 1.1.5: Fix bad references in README.md
 * 1.0.4: Happy 2016!, cleanse README content, include additional rvm packages
 * 1.0.3: Rename `LICENSE` to `MIT-LICENSE`
 * 1.0.2: Bump `tmp` dependency to 0.0.28
@@ -274,4 +275,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.1.0: Initial release candidate
 
 ## License
-Copyright (c) 2014-2016 Michael O'Rourke under terms of the [MIT License](LICENSE).
+Copyright (c) 2014-2016 Michael O'Rourke under terms of the [MIT License](MIT-LICENSE).
