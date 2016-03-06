@@ -255,6 +255,7 @@ $ grunt test
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
+* 1.0.7: Merge peerDependencies pull request
 * 1.0.6: Bump `grunt-contrib-jshint` to 1.0.0
 * 1.0.5: Fix bad references in README.md
 * 1.0.4: Happy 2016!, cleanse README content, include additional rvm packages
