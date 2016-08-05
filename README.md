@@ -7,7 +7,9 @@
 
 > Serve GitHub-flavored sites natively using Jekyll.
 
-Jekyll gives you all the bells and whistles out-of-the-box. Once you push your code to GitHub, though, you may quickly learn Github runs Jekyll in safe mode, meaning certain options are automatically disabled. The "grunt-jekyll-plugin" imitates how Github runs Jekyll in safe mode, thereby helping you avoid or troubleshoot "Page build failed" errors before publishing.
+Jekyll gives you all the bells and whistles out-of-the-box. Once you push your code to GitHub, though, you may quickly learn Github runs Jekyll in safe mode, meaning certain options are automatically disabled. 
+
+The "grunt-jekyll-plugin" imitates how Github runs Jekyll in safe mode, thereby helping you avoid or troubleshoot "Page build failed" errors before publishing.
 
 In addition, this plugin includes a number of simple methods to compile, serve, and watch Jekyll for you.
 
