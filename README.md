@@ -7,9 +7,9 @@
 
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[Jekyll](https://jekyllrb.com) gives you all the bells and whistles out-of-the-box. Once you push your code to GitHub, though, you may quickly learn Github runs Jekyll in safe mode, meaning certain options are automatically disabled. The "grunt-jekyll-plugin" imitates how Github runs Jekyll in safe mode, thereby helping you avoid or troubleshoot "Page build failed" errors before publishing.
+Jekyll gives you all the bells and whistles out-of-the-box. Once you push your code to GitHub, though, you may quickly learn Github runs Jekyll in safe mode, meaning certain options are automatically disabled. The "grunt-jekyll-plugin" imitates how Github runs Jekyll in safe mode, thereby helping you avoid or troubleshoot "Page build failed" errors before publishing.
 
-In addition, "grunt-jekyll-plugin" includes a number of simple commands to compile, serve, and watch Jekyll for you.
+In addition, this plugin includes a number of simple methods to compile, serve, and watch Jekyll for you.
 
 ## Getting Started
 This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
@@ -259,7 +259,8 @@ $ grunt test
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 1.0.8: Bump `grunt` to 1.0.1, update README.md content
+* 1.0.9: Update README.md content
+* 1.0.8: Bump `grunt` to 1.0.1
 * 1.0.7: Merge peerDependencies pull request
 * 1.0.6: Bump `grunt-contrib-jshint` to 1.0.0
 * 1.0.5: Fix bad references in README.md
