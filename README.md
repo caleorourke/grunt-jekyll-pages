@@ -100,7 +100,6 @@ grunt.initConfig({
 
 grunt.loadNpmTasks("grunt-jekyll-pages");
 
-
 grunt.registerTask("verify", ["pages:preview"]);
 ```
 
@@ -122,7 +121,6 @@ grunt.initConfig({
 });
 
 grunt.loadNpmTasks('grunt-jekyll-pages');
-
 
 grunt.registerTask('serve', ['pages:serve']);
 grunt.registerTask('test',  ['pages:test']);
