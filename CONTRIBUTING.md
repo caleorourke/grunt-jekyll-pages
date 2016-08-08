@@ -26,23 +26,23 @@ When submitting a new request, please provide as much context as possible to jus
 
 Got issues? Here are some suggestions to help guide you through escalating it to us.
 
-### Search issues already in GitHub
+#### Search issues already in GitHub
 
 All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">search</a> and make sure your issue hasn't already been reported.
 
-### Provide information about your setup
+#### Provide information about your setup
 
 This includes versions, when was it installed, what you're trying to do, and so on.
 
-### Gauge its severity, impact, and occurrences
+#### Gauge its severity, impact, and occurrences
 
 Help us understand how serious the issue is and what priority we need to triage it in.
 
-### Share code pastes in Gist
+#### Share code pastes in Gist
 
 Paste any code, logs, or errors into a page on <a href="http://gist.github.com" target="_blank">Gist</a> and drop the link in the issue.
 
-### Use our template to write-up your issue
+#### Use our template to write-up your issue
 
 A good issue should not require anyone to pine for more information. That's why we suggest using this template. It's sufficient in most cases, albeit some issues may require us to ask for more details.
 
@@ -63,6 +63,6 @@ Steps to Reproduce
 Include any other comments, such as how you worked around it, suggestions you have for fixing it, and so on.
 ~~~
 
-### Submit the issue in GitHub
+#### Submit the issue in GitHub
 
 When you're ready, <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues/new" target="_blank">open a new issue</a> and send it over to us.
