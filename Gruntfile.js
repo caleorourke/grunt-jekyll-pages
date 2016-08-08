@@ -10,7 +10,6 @@ module.exports = function(grunt) {
       options: {
         src: 'test/app'
       },
-
       actual: {
         options: {
           dest: 'test/actual'
@@ -29,7 +28,6 @@ module.exports = function(grunt) {
       },
       src: 'test/test.js'
     },
-
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -44,6 +42,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-mocha-test');
 
-  grunt.registerTask('test', ['jshint', 'pages:expected', 'mochaTest']);
-  grunt.registerTask('default', 'test');
+  grunt.registerTask('test-plugin', ['jshint', 'pages:expected', 'mochaTest']);
+  grunt.registerTask('default', 'test-plugin');
 };

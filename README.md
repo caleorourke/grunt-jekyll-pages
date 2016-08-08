@@ -6,7 +6,7 @@
 # grunt-jekyll-pages
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github harnesses Jekyll in safe mode. You can also use this plugin to manually script tasks for compiling, serving, and watching Jekyll locally.
+[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github runs Jekyll in safe mode. This plugin also includes configuration objects to manually script tasks for compiling, serving, and watching Jekyll locally before pushing code to GitHub.
 
 ## Getting Started
 This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
@@ -27,8 +27,8 @@ grunt.loadNpmTasks('grunt-jekyll-pages');
 Run the following commands.
 
 ```bash
-$ [sudo] gem install github-pages
-$ [sudo] npm install
+gem install github-pages
+npm install
 ```
 
 ## Overview
@@ -47,29 +47,22 @@ grunt.initConfig({
 });
 ```
 
-## Options
-You can use the [configuration options](https://github.com/caleorourke/grunt-jekyll-pages/blob/master/OPTIONS.md) available for this plugin. Refer to [Jekyll Documentation](http://jekyllrb.com/docs/configuration) for additional options.
-
-## Usage Examples
-Follow this [Grunt example](http://gist.github.com/caleorourke/a6d09df41bca1bc4c224) to get started with `grunt-jekyll-pages` quickly. Additional examples are below.
-
-### Example 1: Single Task
-In this example, running `grunt default` will fire off the task.
+Use this method to add or append configuration options, targets, etc., to the `pages` task.
 
 ```js
 grunt.initConfig({
-  pages: {                              // Task
-    options: {                          // Universal options
+  pages: {                        // Task
+    options: {                    // Universal options
       bundleExec: true,
       src : '<%= app %>'
     },
-    dist: {                             // Target
-      options: {                        // Target options
+    dist: {                       // Target
+      options: {                  // Target options
         dest: '<%= dist %>',
         config: '_config.yml,_config.build.yml'
       }
     },
-    serve: {                            // Another target
+    serve: {                      // Another target
       options: {
         dest: '.jekyll',
         drafts: true
@@ -83,8 +76,36 @@ grunt.loadNpmTasks('grunt-jekyll-pages');
 grunt.registerTask('default', ['pages']);
 ```
 
-### Example 2: Multiple Tasks
-In this example, running `grunt serve` will fire off one task, and  `grunt test` will fire off the other.
+## Options
+You can use the [configuration options](https://github.com/caleorourke/grunt-jekyll-pages/blob/master/OPTIONS.md) available for this plugin. Refer to the [Jekyll Documentation](http://jekyllrb.com/docs/configuration) for additional options.
+
+## Usage Examples
+Follow these Grunt examples to get started with grunt-jekyll-pages quickly.
+
+### Single Task
+This example includes one registered task. `grunt verify` generates the site locally and makes it available at [10.0.0.1:8080](10.0.0.1:8080).
+
+```js
+grunt.initConfig({
+  pages: {
+    preview: {
+      options: {
+        serve: true,
+        host: '10.0.0.1'
+        port: '8080'
+      }
+    }
+  }
+});
+
+grunt.loadNpmTasks("grunt-jekyll-pages");
+
+
+grunt.registerTask("verify", ["pages:preview"]);
+```
+
+### Multiple Tasks
+This example includes two registered tasks. `grunt serve` generates the site locally, watches for changes, and makes it available at [localhost:4000](localhost:4000). `grunt test` generates the site and displays on-screen warnings for symlink errors.
 
 ```js
 grunt.initConfig({
@@ -107,14 +128,15 @@ grunt.registerTask('serve', ['pages:serve']);
 grunt.registerTask('test',  ['pages:test']);
 ```
 
-### Example 3: Raw Usage
+### Raw Usage
 ```js
 grunt.initConfig({
   pages: {
     dist: {
       options: {
         config: '_config.yml',
-        // Construct a string with JavaScript. Remember, in YAML, line breaks and indentation matter.
+        // Construct a string with JavaScript
+        // Remember line breaks and indentation matter in YAML
         raw: 'highlighter: pygments\n' +
         'exclude: [\'development\']\n' +
         'author:\n' +
@@ -130,27 +152,22 @@ grunt.initConfig({
 Run the following command to test this plugin.
 
 ```shell
-$ grunt test
+$ grunt test-plugin
 ```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 1.1.0: Bump `grunt` to 1.0.1, update README.md content, merge peerDependencies pull request
+* 1.1.0: Bump `grunt` to 1.0.1, merge peerDependencies pull request
 * 1.0.3: Bump `grunt-contrib-jshint` to 1.0.0
-* 1.0.2: Happy 2016, cleanse README content, include additional rvm packages
-* 1.0.1: Bump `tmp` dependency to 0.0.28, include `grunt test`
+* 1.0.2: Include additional rvm packages
+* 1.0.1: Bump `tmp` to 0.0.28
 * 1.0.0: General Availability
-* 0.5.0: Convert `.travis.yml` default from node.js to ruby
-* 0.4.4: Bump `tmp` dependency to 0.0.27
-* 0.4.3: Include `grunt-cli` natively in `.travis.yml` to fix build failure
-* 0.4.2: Bump `tmp` dependency to 0.0.25
-* 0.4.1: Happy 2015, bump `grunt-contrib-jshint` to 0.11.0, bump `grunt-mocha-test` to 0.12.7
-* 0.4.0: Update runtime and dev dependencies, update README.md content
-* 0.3.0: New home for repository
+* 0.5.0: Convert `.travis.yml` from node.js to ruby, include `grunt test`
+* 0.4.0: Include `grunt-cli` natively in `.travis.yml` to fix build failure
+* 0.3.2: Bump `tmp` to 0.0.25
+* 0.3.1: Bump `grunt-contrib-jshint` to 0.11.0, bump `grunt-mocha-test` to 0.12.7
+* 0.3.0: Update runtime and dev dependencies
 * 0.2.0: Limit Node.js engine to `>= 0.10`
 * 0.1.0: Initial release candidate
-
-## License
-Copyright (c) 2014-2016 Michael O'Rourke under terms of the [MIT License](https://github.com/caleorourke/grunt-jekyll-pages/blob/master/MIT-LICENSE).
