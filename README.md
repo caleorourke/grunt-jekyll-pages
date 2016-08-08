@@ -6,7 +6,7 @@
 # grunt-jekyll-pages
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github runs Jekyll in safe mode. This plugin also includes configuration objects to manually script tasks for compiling, serving, and watching Jekyll locally before pushing code to GitHub.
+[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github runs Jekyll in safe mode. This plugin also allows you to manually script tasks, such as build, serve, and watch, for Jekyll locally.
 
 ## Getting Started
 This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
