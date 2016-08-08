@@ -6,10 +6,14 @@
 # grunt-jekyll-pages
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github runs Jekyll in safe mode. This plugin also allows you to manually script tasks, such as build, serve, and watch, for Jekyll locally.
+[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode. It also provide the means to manually script any of the options (build, serve, watch, etc.) for the purpose of development or testing.
 
 ## Getting Started
-This plugin requires the minimal versions of Node `>= 0.10` with Grunt `~0.4.5`, and Ruby `~2.0.0` with GitHub Pages `~21`.
+This plugin requires the minimal versions:
+* Node.js `>= 0.10`
+* Grunt.js `~0.4.5`
+* Ruby `~2.0.0`
+* GitHub Pages `~21` (Ruby gem)
 
 If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -21,14 +25,6 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 
 ```js
 grunt.loadNpmTasks('grunt-jekyll-pages');
-```
-
-## Local Install
-Run the following commands.
-
-```bash
-gem install github-pages
-npm install
 ```
 
 ## Overview
@@ -154,6 +150,8 @@ $ grunt test-plugin
 ```
 
 ## Contributing
+Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code.
+
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
