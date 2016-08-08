@@ -3,6 +3,7 @@ rvm:
   - 2.0.0
   - 2.1.5
   - 2.2.1
+  - 2.2.2
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -13,7 +14,7 @@ install:
   - travis_retry npm install
 
 script:
-  - grunt test
+  - grunt test-plugin
 
 notifications:
   email: false
