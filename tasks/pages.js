@@ -7,11 +7,41 @@ module.exports = function(grunt) {
   var exec = require('child_process').exec;
 
   grunt.registerMultiTask('pages', 'Serve GitHub-flavored sites natively using Jekyll.', function() {
+
     var done = this.async();
     var options = this.options();
     var command = 'jekyll';
     var optionList = {
 
+      // Global Options
+      'src': '--source',
+      'dest': '--destination',
+      'safe': true,
+      'layouts': '--layouts',
+      'profile': '--profile',
+
+      // Build Command Options
+      'auto': '--watch',
+      'watch': '--watch',
+      'no_watch': '--no-watch',
+      'config': '--config',
+      'drafts': '--drafts',
+      'future': '--future',
+      'lsi': '--lsi',
+      'limit_posts': '--limit_posts',
+      'force_polling': '--force_polling',
+      'verbose': '--verbose',
+      'quiet': '--quiet',
+      'incremental': '--incremental',
+
+      // Serve Command Options
+      'port': '--port',
+      'server_port': '--port',
+      'host': '--host',
+      'baseurl': '--baseurl',
+      'skip_initial_build': '--skip-initial-build',
+      'open_url': '--open-url',
+      /*
       'src': '--source',
       'dest': '--destination',
       'safe': '--safe',
@@ -28,7 +58,7 @@ module.exports = function(grunt) {
       'server_port': '--port',
       'host': '--host',
       'baseurl': '--baseurl',
-      'detach': '--detach',
+      'detach': '--detach',*/
 
       // Deprecated or unsupported flags
       'plugins': false,
@@ -61,6 +91,7 @@ module.exports = function(grunt) {
     // Create temporary config file if needed
     function configContext (next) {
       if (options.raw) {
+
         // Tmp file is only available within the context of this function
         tmp.file({ prefix: '_config.', postfix: '.yml' }, function(err, path, fd) {
 
