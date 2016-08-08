@@ -41,26 +41,8 @@ module.exports = function(grunt) {
       'baseurl': '--baseurl',
       'skip_initial_build': '--skip-initial-build',
       'open_url': '--open-url',
-      /*
-      'src': '--source',
-      'dest': '--destination',
-      'safe': '--safe',
-      'layouts': '--layouts',
-      'data_source': '--data_source',
-      'watch': '--watch',
-      'auto': '--watch',
-      'config': '--config',
-      'drafts': '--drafts',
-      'future': '--future',
-      'lsi': '--lsi',
-      'limit_posts': '--limit_posts',
-      'port': '--port',
-      'server_port': '--port',
-      'host': '--host',
-      'baseurl': '--baseurl',
-      'detach': '--detach',*/
 
-      // Deprecated or unsupported flags
+      // Deprecated or Unsupported Flags
       'plugins': false,
       'paginate': false,
       'permalink': false,
