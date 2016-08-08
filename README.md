@@ -54,7 +54,7 @@ grunt.initConfig({
   pages: {                        // Task
     options: {                    // Universal options
       bundleExec: true,
-      src : '<%= app %>'
+      src: '<%= app %>'
     },
     dist: {                       // Target
       options: {                  // Target options
