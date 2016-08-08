@@ -9,7 +9,7 @@
 [grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is a Grunt.js plugin designed to emulate how Github runs Jekyll in safe mode. This plugin also allows you to manually script tasks, such as build, serve, and watch, for Jekyll locally.
 
 ## Getting Started
-This plugin requires Node `>= 0.10`, Grunt `~0.4.5` and GitHub Pages `~21`.
+This plugin requires the minimal versions of Node `>= 0.10` with Grunt `~0.4.5`, and Ruby `~2.0.0` with GitHub Pages `~21`.
 
 If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -159,7 +159,7 @@ $ grunt test-plugin
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-* 1.1.1: Fix `grunt-test` condition, Include additional rvm package
+* 1.1.1: Fix `grunt-test` condition, include additional rvm package
 * 1.1.0: Bump `grunt` to 1.0.1, merge peerDependencies pull request
 * 1.0.3: Bump `grunt-contrib-jshint` to 1.0.0
 * 1.0.2: Include additional rvm packages
