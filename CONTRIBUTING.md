@@ -1,28 +1,10 @@
 # Contributing Guidelines
 
-grunt-jekyll-pages is open source project. It's hosted, developed, and maintained only on GitHub.
+grunt-jekyll-pages is hosted, developed, and maintained only on GitHub. This repository follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages issues and pull requests for source control, bug fixes, and new features. Anyone is welcome to submit a request, but we ask that you follow a few simple guidelines in regards to:
 
-grunt-jekyll-pages follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages issues and pull requests for source control, bug fixes, and new features. Anyone is welcome to submit a request, but we ask that you follow a few simple guidelines in regards to:
-
-* [Code Standards](#code-standards)
 * [Pull Requests](#pull-requests)
 * [Feature Requests](#feature-requests)
 * [Issue Reporting](#issue-reporting)
-
-## Code Standards
-
-All submissions should follow the <a href="http://codeguide.co" target="_blank">Code Guide by @mdo</a>. Also, as a suggestion, you can configure these settings in your editor to follow this coding style.
-
-~~~
-"translate_tabs_to_spaces": true,
-"tab_size": 2,
-"ensure_newline_at_eof_on_save": false,
-"default_encoding": "UTF-8",
-"default_line_ending": "lf",
-"trim_trailing_white_space_on_save": true
-~~~
-
-> Names and formatting vary across different editors.
 
 ## Pull Requests
 
@@ -30,15 +12,15 @@ We accept all types of pull requests, just as long as they stay within scope and
 
 To create a pull request:
 
-1. Fork Hatch from GitHub: `http://github.com/caleorourke/grunt-jekyll-pages/fork`
+1. Fork repo from GitHub: `http://github.com/caleorourke/grunt-jekyll-pages/fork`
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am "add some sweet features"`
 4. Push to the branch: `git push origin my-new-feature`
-5. Create new Pull Request in GitHub
+5. Create a new Pull Request in GitHub
 
 ## Feature Requests
 
-When submitting a new request, please provide as much context as possible to justify how it fits in within our scope. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">Search</a> to browse current requests or <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues/new" target="_blank">Request</a> to submit a new one.
+When submitting a new request, please provide as much context as possible to justify how it fits in within our scope. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">search</a> to browse current requests or <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues/new" target="_blank">request</a> to submit a new one.
 
 ## Issue Reporting
 
@@ -46,7 +28,7 @@ Got issues? Here are some suggestions to help guide you through escalating it to
 
 #### Search issues already in GitHub
 
-All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
+All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">search</a> and make sure your issue hasn't already been reported.
 
 #### Provide information about your setup
 
@@ -54,15 +36,15 @@ This includes versions, when was it installed, what you're trying to do, and so 
 
 #### Gauge its severity, impact, and occurrences
 
-Help me understand how serious the issue is and what priority we need to triage it in.
+Help us understand how serious the issue is and what priority we need to triage it in.
 
 #### Share code pastes in Gist
 
-Paste any code, logs, or errors into a page on <a href="http://gist.github.com" target="_blank">Gist</a> and drop the link to it in the report.
+Paste any code, logs, or errors into a page on <a href="http://gist.github.com" target="_blank">Gist</a> and drop the link in the issue.
 
-#### Use our template to write-up your report
+#### Use our template to write-up your issue
 
-A good report should not require anyone to pine for more information. That's why we suggest using this template. It's sufficient for the majority of reports, albeit some issues may require us to ask for more details.
+A good issue should not require anyone to pine for more information. That's why we suggest using this template. It's sufficient in most cases, albeit some issues may require us to ask for more details.
 
 ~~~
 A summary of the issue and what problem it's causing.
