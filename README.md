@@ -6,14 +6,10 @@
 # grunt-jekyll-pages
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode. It also provides a number of options (build, serve, watch, etc.) for the purpose of development or testing.
+[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode on Linux, Unix, or Mac OS X. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
 
 ## Getting Started
-This plugin requires the minimal versions:
-* Node.js `>= 0.10`
-* Grunt.js `~0.4.5`
-* Ruby `~2.0.0`
-* GitHub Pages `~21` (Ruby gem)
+This plugin requires Node.js `>=0.10` and Grunt.js `>=0.4.0`. Jekyll and the GitHub Pages gem ([pages-gem](https://github.com/github/pages-gem)) also needs to be installed. Refer to the [Jekyll Installation](https://jekyllrb.com/docs/installation) guide for instructions.
 
 If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -122,11 +118,14 @@ grunt.registerTask('serve', ['pages:serve']);
 grunt.registerTask('test',  ['pages:test']);
 ```
 
-### Raw Usage
+### No Tasks (Raw)
+
+This example has no specific task defined. `grunt pages:a` builds Jekyll's `_config.yml` file with a set of specific options, while `grunt pages:b` builds the same file with different options.
+
 ```js
 grunt.initConfig({
   pages: {
-    dist: {
+    a: {
       options: {
         config: '_config.yml',
         // Construct a string with JavaScript
@@ -138,8 +137,22 @@ grunt.initConfig({
         '  email: ' + fetchEmail()
       }
     }
+    b: {
+      options: {
+        config: '_config.yml',
+        // Construct a string with JavaScript
+        // Remember line breaks and indentation matter in YAML
+        raw: 'highlighter: rouge\n' +
+        'exclude: [\'production\']\n' +
+        'author:\n' +
+        '  name: ' + fetchAuthor() + '\n' +
+        '  email: ' + fetchEmail()
+      }
+    }
   }
 });
+
+grunt.loadNpmTasks('grunt-jekyll-pages');
 ```
 
 ## Testing
