@@ -1,7 +1,13 @@
-## Options
-You can use the configuration options available below for this plugin. Refer to the [Jekyll Documentation](http://jekyllrb.com/docs/configuration) for additional options.
+# Options
+You can use the configuration options available below for this plugin. Options include:
 
-### Global Configuration
+* [Global Configuration](#global-configuration)
+* [Build Commands](#build-commands)
+* [Serve Commands](#serve-commands)
+
+Refer to the [Jekyll Documentation](http://jekyllrb.com/docs/configuration) for additional options.
+
+## Global Configuration
 
 #### src
 Type: `string` <br>
@@ -33,7 +39,7 @@ Default: `false`
 
 Disables custom plugins and ignore symbolic links. If you're using GitHub Pages to publish your site, this option will automatically be set to `false`.
 
-### Build Command Options
+## Build Commands
 
 #### serve
 Type: `boolean` <br>
@@ -88,7 +94,7 @@ Default: `0`
 
 Limits the number of posts to parse and publish.
 
-### Serve Command Options
+## Serve Commands
 
 #### port
 Type: `string` or `number` <br>
