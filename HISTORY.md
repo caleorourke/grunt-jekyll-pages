@@ -2,6 +2,7 @@
 
 The following summary includes all feature enhancements and changes for each version.
 
+* 1.3.0: Deprecate unused Jekyll config options in `pages.js`
 * 1.2.0: Insert new Jekyll config options in `pages.js`
 * 1.1.1: Fix `grunt-test` condition, include additional rvm package
 * 1.1.0: Bump `grunt` to 1.0.1, merge peerDependencies pull request

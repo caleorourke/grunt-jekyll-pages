@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-grunt-jekyll-pages is hosted, developed, and maintained only on GitHub. This repository follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages issues and pull requests for source control, bug fixes, and new features. Anyone is welcome to submit a request, but we ask that you follow a few simple guidelines in regards to:
+grunt-jekyll-pages is hosted, developed, and maintained only on GitHub. This repository follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages issues and pull requests for source control, bug fixes, and new features. Anyone is welcome to submit a request, but we ask that you follow a few simple guidelines regarding:
 
 * [Pull Requests](#pull-requests)
 * [Feature Requests](#feature-requests)
@@ -8,7 +8,7 @@ grunt-jekyll-pages is hosted, developed, and maintained only on GitHub. This rep
 
 ## Pull Requests
 
-We accept all types of pull requests, just as long as they stay within scope and don't break compatibility downstream. If you're unsure about what impact your request might have, send us a [feature request](#feature-requests) first. This gives us a chance to vet it before you start working on something that we might decide not to merge.
+We accept all types of pull requests, just as long as they stay within scope and don't break compatibility downstream. If you're unsure about what impact your request might have, submit a [feature request](#feature-requests) first. This gives us a chance to vet it before you start working on something that we might decide not to merge.
 
 To create a pull request:
 
@@ -20,11 +20,11 @@ To create a pull request:
 
 ## Feature Requests
 
-When submitting a new request, please provide as much context as possible to justify how it fits in within our scope. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">search</a> to browse current requests or <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues/new" target="_blank">request</a> to submit a new one.
+When submitting a new request, please provide as much context as possible to justify how it fits within our scope. Click <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues" target="_blank">search</a> to browse current requests or <a href="http://github.com/caleorourke/grunt-jekyll-pages/issues/new" target="_blank">request</a> to submit a new one.
 
 ## Issue Reporting
 
-Got issues? Here are some suggestions to help guide you through escalating it to us.
+Here are some suggestions to help guide you through escalating it to us.
 
 #### Search issues already in GitHub
 
