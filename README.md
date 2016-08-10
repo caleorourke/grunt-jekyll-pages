@@ -150,10 +150,8 @@ $ grunt test-plugin
 ```
 
 ## Contributing
-Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code.
-
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
+Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code. In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
 
-See our [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes for each version.
+See our [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes applied to each version.
