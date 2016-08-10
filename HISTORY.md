@@ -1,6 +1,6 @@
-## Release History
+# Release History
 
-The following list includes all enhancements and changes for each version.
+The following summary includes all feature enhancements and changes for each version.
 
 * 1.2.0: Insert new Jekyll config options in `pages.js`
 * 1.1.1: Fix `grunt-test` condition, include additional rvm package
