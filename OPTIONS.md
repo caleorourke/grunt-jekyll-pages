@@ -1,5 +1,5 @@
 # Options
-You can use the configuration options available below for this plugin. Options include:
+You can use the configuration options available below for this plugin. These options include:
 
 * [Global Configuration](#global-configuration)
 * [Build Commands](#build-commands)
@@ -37,7 +37,7 @@ The directory for data files.
 Type: `boolean` <br>
 Default: `false`
 
-Disables custom plugins and ignore symbolic links. If you're using GitHub Pages to publish your site, this option will automatically be set to `false`.
+Disables custom plugins. This option is automatically set to `false` in the plugin to emulate how GitHub Pages will publish your site.
 
 ## Build Commands
 
