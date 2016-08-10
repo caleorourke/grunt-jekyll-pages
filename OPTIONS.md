@@ -27,19 +27,6 @@ Default: `true`
 
 Disables custom plugins. This option is automatically set to `true` in the plugin to emulate how GitHub Pages will publish your site.
 
-#### layouts
-Type: `string` <br>
-Default: `./_layouts`
-
-The directory for layouts.
-
-> needs validation
-#### data_source
-Type: `string` <br>
-Default: `./_data`
-
-The directory for data files.
-
 ## Build Options
 
 #### serve
