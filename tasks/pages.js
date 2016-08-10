@@ -17,11 +17,8 @@ module.exports = function(grunt) {
       'src': '--source',
       'dest': '--destination',
       'safe': true,
-      'layouts': '--layouts',
-      'profile': '--profile',
 
       // Build Command Options
-      'auto': '--watch',
       'watch': '--watch',
       'no_watch': '--no-watch',
       'config': '--config',
@@ -40,7 +37,6 @@ module.exports = function(grunt) {
       'host': '--host',
       'baseurl': '--baseurl',
       'skip_initial_build': '--skip-initial-build',
-      'open_url': '--open-url',
 
       // Deprecated or Unsupported Flags
       'plugins': false,
