@@ -9,7 +9,7 @@
 [grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode on Linux, Unix, or Mac OS X. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
 
 ## Getting Started
-This plugin requires Node.js `>=0.10` and Grunt.js `>=0.4.0`. 
+This plugin requires Node `>=0.10` and Grunt `>=0.4.0`. 
 
 Jekyll and GitHub Pages ([pages-gem](https://github.com/github/pages-gem)) must also be installed. Refer to the [Jekyll Installation](https://jekyllrb.com/docs/installation) guide for instructions.
 
