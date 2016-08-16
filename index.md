@@ -1,15 +1,14 @@
-<a href="https://travis-ci.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://travis-ci.org/caleorourke/grunt-jekyll-pages.svg?branch=master"></a>
-<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages.svg?theme=shields.io"></a>
-<a href="https://david-dm.org/caleorourke/grunt-jekyll-pages#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/grunt-jekyll-pages/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/MIT-LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+---
+layout: page
+title: index
+---
 
-# grunt-jekyll-pages
-> Serve GitHub-flavored sites natively using Jekyll.
+## Introduction
 
 [grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode on Linux, Unix, or Mac OS X. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
 
 ## Getting Started
-This plugin requires Node `>=0.10` and Grunt `>=0.4.0`. 
+This plugin requires Node `>=0.10` and Grunt `>=0.4.0`.
 
 Jekyll and GitHub Pages ([pages-gem](https://github.com/github/pages-gem)) must also be installed. Refer to the [Jekyll Installation](https://jekyllrb.com/docs/installation) guide for instructions.
 

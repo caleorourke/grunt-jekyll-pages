@@ -1,0 +1,13 @@
+#
+# * Config
+# * Stores static configuration and project info
+#
+# * Spaces only, not tabs
+# * Wrap words in quotes wherever commas are used
+
+org:        Jekyll-Hyde Enterprise
+permalink:  pretty
+exclude:    [".gitignore",
+            "Gemfile"]
+gems:
+  - jekyll-seo-tag
