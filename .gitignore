@@ -1,4 +1,5 @@
 *.log
+*.lock
 .grunt
 .DS_Store
 Thumbs.db
