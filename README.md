@@ -8,15 +8,17 @@
 
 [grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode on Linux, Unix, or Mac OS X. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
 
+The [npm package](https://www.npmjs.com/package/grunt-jekyll-pages) is available publicly.
+
 ## Getting Started
-This plugin requires Node `>=0.10` and Grunt `>=0.4.0`. 
+This plugin requires Node `>=0.10` and Grunt `>=0.4.0`.
 
 Jekyll and GitHub Pages ([pages-gem](https://github.com/github/pages-gem)) must also be installed. Refer to the [Jekyll Installation](https://jekyllrb.com/docs/installation) guide for instructions.
 
 If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-jekyll-pages --save-dev
+npm i grunt-jekyll-pages --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -121,7 +123,6 @@ grunt.registerTask('test',  ['pages:test']);
 ```
 
 ### No Tasks (Raw)
-
 This example has no specific task defined. `grunt pages:a` builds Jekyll's `_config.yml` file with a set of specific options, while `grunt pages:b` builds the same file with different options.
 
 ```js
@@ -168,5 +169,5 @@ $ grunt test-plugin
 Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code. In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-
 See our [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes applied to each version.
+
