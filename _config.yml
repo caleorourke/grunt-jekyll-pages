@@ -1,8 +1,7 @@
-#
-# * Config
+# * _config.yml
 # * Stores static configuration and project info
 #
-# * Spaces only, not tabs
+# * Spaces only, no tabs
 # * Wrap words in quotes wherever commas are used
 
 org:        Jekyll-Hyde Enterprise
