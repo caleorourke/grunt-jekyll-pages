@@ -170,4 +170,3 @@ Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-je
 
 ## Release History
 See our [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes applied to each version.
-

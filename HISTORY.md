@@ -2,6 +2,7 @@
 
 The following summary includes all feature enhancements and changes for each version.
 
+* 1.3.1: Bump `tmp` to 0.0.31, bump `grunt-mocha-test` to 0.13.2
 * 1.3.0: Deprecate unused Jekyll config options in `pages.js`
 * 1.2.0: Insert new Jekyll config options in `pages.js`
 * 1.1.1: Fix `grunt-test` condition, include additional rvm package
