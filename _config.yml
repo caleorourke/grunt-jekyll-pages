@@ -10,3 +10,5 @@ exclude:    [".gitignore",
             "Gemfile"]
 gems:
   - jekyll-seo-tag
+
+theme: jekyll-theme-minimal
