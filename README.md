@@ -6,7 +6,7 @@
 # grunt-jekyll-pages
 > Serve GitHub-flavored sites natively using Jekyll.
 
-[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This Grunt.js plugin emulates how Github Pages runs Jekyll in safe mode on Linux, Unix, or Mac OS X. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
+[grunt-jekyll-pages](https://github.com/caleorourke/grunt-jekyll-pages) is for anyone working with GitHub Pages. This plugin emulates how Github Pages runs Jekyll in safe mode on Linux or Mac OS. It also provides a number of options (build, serve, watch, etc.) for dev and testing purposes.
 
 The [npm package](https://www.npmjs.com/package/grunt-jekyll-pages) is available publicly.
 
@@ -15,7 +15,7 @@ This plugin requires Node `>=0.10` and Grunt `>=0.4.0`.
 
 Jekyll and GitHub Pages ([pages-gem](https://github.com/github/pages-gem)) must also be installed. Refer to the [Jekyll Installation](https://jekyllrb.com/docs/installation) guide for instructions.
 
-If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+If you haven't used [Grunt](http://gruntjs.com) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. It explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile), as well as how to install and use Grunt plugins. Once you are familiar with that, install this plugin with this command:
 
 ```shell
 npm i grunt-jekyll-pages --save-dev
@@ -166,7 +166,7 @@ $ grunt test-plugin
 ```
 
 ## Contributing
-Please read our [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code. In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
+Please read the [Contributing Guidelines](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/CONTRIBUTING.md) before submitting code. In lieu of a formal styleguide, take care to maintain the existing coding style. Add tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
 ## Release History
-See our [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes applied to each version.
+See the [Release History](http://github.com/caleorourke/grunt-jekyll-pages/blob/master/HISTORY.md) for enhancements and changes applied to each version.
